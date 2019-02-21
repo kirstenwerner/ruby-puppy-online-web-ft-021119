@@ -20,7 +20,7 @@ class Dog
     puts @@all
     # @@all_names.each do |name|
     #   puts name 
-    end
+    # end
   end 
   
   
