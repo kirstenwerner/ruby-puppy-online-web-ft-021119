@@ -9,7 +9,7 @@ class Dog
   def initialize(name)
     @name = name
     @@all << self 
-    @@all_names << name 
+    @@all_names << @name 
   end 
   
   def self.clear_all
@@ -18,8 +18,8 @@ class Dog
   
   def self.all 
     # puts @@all
-    @@all.each do |dog|
-      dog(:@name)
+    @@all_names.each do |dog|
+      puts @name 
     end
   end 
   
