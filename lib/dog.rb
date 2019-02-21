@@ -17,7 +17,6 @@ class Dog
   end 
   
   def self.all 
-    # puts @@all
     @@all_names.each do |dog|
       puts name 
     end
@@ -26,9 +25,3 @@ class Dog
   
 end 
 
-# Dog.new("Pluto")
-# Dog.new("Fido")
-# Dog.new("Mary")
-
-
-# Dog.all
