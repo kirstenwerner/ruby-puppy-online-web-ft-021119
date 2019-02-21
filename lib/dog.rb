@@ -26,9 +26,9 @@ class Dog
   
 end 
 
-Dog.new("Pluto")
-Dog.new("Fido")
-Dog.new("Mary")
+# Dog.new("Pluto")
+# Dog.new("Fido")
+# Dog.new("Mary")
 
 
-Dog.all
+# Dog.all
