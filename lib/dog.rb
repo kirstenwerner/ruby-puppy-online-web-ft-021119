@@ -2,7 +2,6 @@ require 'pry'
 class Dog 
  
   @@all = []
-  # @name = ''
 
   attr_accessor :name
 
