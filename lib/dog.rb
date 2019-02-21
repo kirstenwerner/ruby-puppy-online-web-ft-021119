@@ -2,7 +2,7 @@ require 'pry'
 class Dog 
  
   @@all = []
-  @name = ''
+  # @name = ''
 
   attr_accessor :name
 
@@ -16,7 +16,6 @@ class Dog
   end 
   
   def self.all 
-    # print @@all
     @@all.each do |dog|
       puts dog::name 
     end
